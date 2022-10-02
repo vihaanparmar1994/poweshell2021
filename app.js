@@ -19,9 +19,20 @@ var server = http.createServer(function (req, res) {
             if (req.url === '/') {
                 log('Received message: ' + body);
             } else if (req.url = '/scheduled') {
-                log('Received task ' + req.headers['x-aws-sqsd-taskname'] + ' scheduled at ' + req.headers['x-aws-sqsd-scheduled-at']);
-            }
+                log('Received task ' + req.headers['x
+div {
+  background-repeat: no-repeat, repeat;
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-blend-mode: lighten;
+}
 
+int num = 29;
+        boolean flag = false;
+        for(int i = 2; i <= num/2; ++i)
+        {
+            if(num %  if (!flag)
+            System.out.println(num + " is a prime number.");
+        else
             res.writeHead(200, 'OK', {'Content-Type': 'text/plain'});
             res.end();
         });
