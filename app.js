@@ -24,7 +24,15 @@ div {
   background-repeat: no-repeat, repeat;
   background-image: url("img_tree.gif"), url("paper.gif");
   background-blend-mode: lighten;
-}
+} false;
+        for(int i = 2; i <= num/2; ++i)
+        {
+            if(num % i == 0)
+            {
+//                 flag = true;
+//                 break;
+//             }
+//         }
 
 int num = 29;
         boolean flag = false;
